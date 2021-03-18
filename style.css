@@ -1,0 +1,81 @@
+html, body{
+margin: 0;
+padding:0;
+}
+.header{
+    padding-top: 30px;
+    }
+
+.row{
+    text-align: center;
+
+}
+.sidebar{
+    background-color: blue;
+    float: left;
+    width: 30%;
+}
+.content{
+    background-color: green;
+    float: left;
+    width: 70%;
+}
+
+.use-info{
+    padding: 35px 0 15px 0;
+    text-align: center;
+    background-image: url('../abstract-background.jpg');
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+
+
+}
+.avatar-block{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #555;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url('../python_green.jpg');
+    background-size: cover;
+    background-position-x: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    
+}
+.contacts{
+
+    text-align: center;
+    cursor: pointer; 
+
+
+}
+
+.contacts p{
+
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.title{
+    font-size: 18px;
+    color: seagreen;
+    font-weight: #777;
+}
+.title li{
+    list-style-type: none;
+}
+
+.education li:first-child{
+    font-weight: 600;
+}
+
+
+
+
